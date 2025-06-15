@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <Users className="w-6 h-6 text-yellow-300" />
-                <span className="text-3xl font-bold">17+</span>
+                <span className="text-3xl font-bold">150+</span>
               </div>
               <p className="text-white/80">Teams Waiting</p>
             </div>
