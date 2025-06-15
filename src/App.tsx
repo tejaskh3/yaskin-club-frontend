@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Toaster } from 'react-hot-toast';
 import Hero from './components/Hero';
 import AIDemo from './components/AIDemo';

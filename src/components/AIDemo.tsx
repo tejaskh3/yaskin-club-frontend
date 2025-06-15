@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, Download, Sparkles, Image as ImageIcon, AlertCircle, Info } from 'lucide-react';
+import { Upload, Download, Sparkles, Image as ImageIcon, Info } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 
 const AIDemo = () => {
