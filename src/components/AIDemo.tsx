@@ -52,7 +52,8 @@ const AIDemo = () => {
       formData.append('image', selectedImage);
       formData.append('prompt', prompt);
 
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/generate-poster`, {
+      const apiUrl = import.meta.env.VITE_BACKEND_URL || 'https://yaskin-club-backend.vercel.app';
+      const response = await fetch(`${apiUrl}/api/generate-poster`, {
         method: 'POST',
         body: formData,
       });
