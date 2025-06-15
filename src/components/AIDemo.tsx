@@ -129,7 +129,7 @@ const AIDemo = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-purple-50 to-pink-50 py-20">
+    <div className="bg-gradient-to-br from-purple-50 to-pink-50 py-20" id="ai-demo">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -291,11 +291,7 @@ const AIDemo = () => {
             Join our waitlist to be the first to access yaskin.club when we launch!
           </p>
           <button
-            onClick={() => {
-              document.getElementById('waitlist-section')?.scrollIntoView({ 
-                behavior: 'smooth' 
-              });
-            }}
+           onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
             className="bg-white text-purple-600 py-3 px-8 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
           >
             Join Waitlist

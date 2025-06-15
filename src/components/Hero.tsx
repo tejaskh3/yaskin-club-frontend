@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
 
           <div className="space-y-4">
             <button 
-              onClick={() => document.getElementById('demo')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('ai-demo')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-white text-purple-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/90 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Try AI Demo Now 🚀
